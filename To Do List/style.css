@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Londrina+Shadow&family=Metal+Mania&display=swap');
+/* font-family: "Bungee Spice", serif;
+    font-family: "Metal Mania", serif;
+    font-family: "Londrina Shadow", serif; 
+    font-family: "Sorts Mill Goudy", serif;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Top Container */
+.outer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Metal Mania", serif;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.title{
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+/* Main Container */
+.main_container{
+    border: 2px solid #000;
+    width: auto;
+    height: 70vh;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+.main_container::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(0, 0, 0);
+}
+.main_container::-webkit-scrollbar-thumb{
+    cursor: pointer;
+    background:red;
+    border-radius:5px;
+  }
+
+.inner_top_container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-inline: 20px;
+    background-color: rgb(99, 105, 103);
+    margin-block: 20px;
+    border-radius: 10px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.input{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.input::placeholder{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(99, 105, 103);
+}
+.add_btn{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    padding-inline: 8px;
+    padding-block: 3px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.listitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 20px;
+    background-color: aquamarine;
+    margin-block: 2px;
+    border-radius: 10px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.task_desc{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 32px;
+    max-width: 160px;
+    overflow: auto;
+}
+.task_desc::-webkit-scrollbar{
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+.task_desc::-webkit-scrollbar-thumb{
+    cursor: pointer;
+    width: 2px;
+    background-color:  hsl(125 60 90);
+    border-radius:5px;
+}
+.task_desc_edit{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 32px;
+    max-width: 160px;
+    overflow: auto;
+    border: 2px solid black;
+}
+.btngrp{
+    margin-block: 3px;
+}
+.edit_btn{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    padding-inline: 8px;
+    padding-block: 3px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+}
+.delete_btn{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    padding-inline: 8px;
+    padding-block: 3px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+}
+.date{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    margin-left: 15px;
+    
+}
+.time{
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
