@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To Do List With Local Storage</title>
+</head>
+<body>
+        <div class="left">
+            <label for="input" class="input_label">Task</label>
+            <br>
+            <input type="text" name="input" id="input" class="input" placeholder="Enter a task">
+            <br>
+            <p class="input_error"></p>
+            <br>
+            <label for="date" class="date_label">Due Date</label>
+            <br>
+            <input type="date" name="date" id="date" class="duedate">
+            <br>
+            <p class="duedate_error"></p>
+            <br>
+            <label for="time" class="time_label">Due Time</label>
+            <br>
+            <input type="time" name="time" id="time" class="duetime">
+            <br>
+            <p class="duetime_error"></p>
+            <br>
+            <button class="add">Add</button>
+        </div>
+        <div class="right">
+            <div class="up">
+                <p class="h1 task">Task</p>
+                <p class="h1 duedate">Due_date</p>
+                <p class="h1 duetime">Due_time</p>
+                <p class="h1 date">Current_date</p>
+                <p class="h1 time">Current_time</p>
+                <p class="h1 edit">Edit</p>
+                <p class="h1 delete">Delete</p>
+            </div>
+            <div class="down">
+                <ol class="ol"></ol>
+            </div>
+        </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
