@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --body: #D0DDD0;
+    --box-background:#727D73;
+}
+body{
+    background-color: var(--body);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.imgbox{
+    display: flex;
+    justify-content: center;
+    background-color: var(--box-background);
+    width: 50vw;
+    height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+img{
+    height: inherit;
+    width: 60vh;
+    border-radius: 10px;
+    filter: drop-shadow(10px 4px 15px rgb(0, 0, 0));
+}
+.form{
+    text-align: center;
+    background-color: var(--box-background);
+    width: 30vw;
+    height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    border-radius: 10px;
+}
+.form .login{
+    margin-block: 50px;
+    color: #F0F0D7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.form form .username_label{
+    font-size: 22px;
+    position: relative;
+    left: -130px;
+}
+.form form .password_label{
+    font-size: 22px;
+    position: relative;
+    left: -130px;
+}
+.form form input{
+    font-size: 22px;
+    padding-block: 5px;
+    width: 70%;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+}
+.form form button{
+    font-size: 22px;
+    padding-block: 5px;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: var(--box-background);
+    color: #D0DDD0;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+
+}
+.form form button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #D0DDD0;
+}
+.form form p{
+    font-size: 22px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="imgbox">
+        <img src="./poster.png">
+    </div>
+    <div class="form">
+        <p class="login">Login Page</p>
+        <form action="./Index.html" method="" onsubmit="return validation()">
+            <label for="username" class="username_label">Username</label>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Enter your username">
+            <p class="msg_username"></p>
+            <br>
+            <label for="password" class="password_label">Password</label>
+            <br>
+            <input type="password" name="password" id="password" placeholder="*********************">
+            <br>
+            <button type="submit">Login</button>
+            <br>
+            <p>New User? <a href="./registration.html">Create New Account</a></p>
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
