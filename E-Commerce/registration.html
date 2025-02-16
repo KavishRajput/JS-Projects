@@ -9,31 +9,40 @@
 </head>
 <body>
     <div class="imgbox">
+            <div class="logo">
+                Bonjour
+            </div>
         <img src="./poster.png">
     </div>
     <div class="form">
         <p class="login">Registration Page</p>
-        <form action="./login.html" method="">
+        <form action="./login.html" method="" onsubmit="return validation()">
             <label for="username" class="username">Username</label>
             <br>
             <input type="text" name="username" id="username" placeholder="Enter your username">
+            <p class="msg_username"></p>
             <br>
             <label for="phone" class="phone_label">Mobile No.</label>
             <br>
             <input type="tel" name="phone" id="phone" placeholder="+91 9876-543-210">
+            <p class="msg_phone"></p>
             <br>
             <label for="password" class="password_label">Password</label>
             <br>
             <input type="password" name="password" id="password" placeholder="*********************">
+            <p class="msg_password"></p>
             <br>
             <label for="c_password" class="c_password_label">Confirm Password</label>
             <br>
             <input type="password" name="c_password" id="c_password" placeholder="*********************">
+            <p class="msg_cpassword"></p>
             <br>
             <button type="submit">Register</button>
             <br>
             <p>Already Have An Account ? <a href="./login.html">Login Here</a></p>
         </form>
     </div>
+
+    <script src="./login.js"></script>
 </body>
 </html>
