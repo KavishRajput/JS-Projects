@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Signin & Login With Validation</title>
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <input type="checkbox" name="pull" class="pull" id="pull">
+    <label for="pull" class="sidelogo"><i class="fa fa-sliders" aria-hidden="true"></i></label>
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+        </ul>
+        <ol>
+            <li><i class="fa fa-home" aria-hidden="true"></i>Home</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Contact</li>
+        </ol>
+    </div>
+    <!-- Main 100vh 100vw -->
+    <div class="main">
+        <!-- Flex Box1 For Image -->
+        <div class="container">
+            <img src="https://cdn.pixabay.com/photo/2024/03/21/23/06/created-by-ai-8648630_1280.png" alt="">
+        </div>
+        <!-- Outer Box -->
+        <div class="outer">
+            <span class="title">Contra Zym</span>
+            <!-- Inner Box -->
+            <div class="inner">
+                <!-- Checkbox For Switch -->
+                <span class="login_logo"><a href="#">Login</a></span>
+                <input type="checkbox" name="switch" class="switch" id="switch">
+                <label for="switch" class="label">
+                    <div class="circle"></div>
+                </label>
+                <span class="signin_logo"><a href="#">Signup</a></span>
+                <!-- Registration Form -->
+                <div class="registration">
+                    <fieldset>
+                        <legend>Registration Form</legend>
+                        <form action="rotation()" name="registration_form">
+                            <label for="signuser">Username</label>
+                            <br>
+                            <input type="text" name="signuser" id="signuser" class="signuser">
+                            <span class="msg_signuser"></span>
+                            <br>
+                            <label for="password">Password</label>
+                            <br>
+                            <input type="password" name="signpass" id="signpass" class="signpass">
+                            <span class="msg_signpass"></span>
+                            <br>
+                            <label for="signcpass">Confirm Password</label>
+                            <br>
+                            <input type="password" name="signcpass" id="signcpass" class="signcpass">
+                            <span class="msg_signcpass"></span>
+                            <br>
+                            <label for="number">Phone</label>
+                            <br>
+                            <input type="tel" name="signphone" id="signphone" class="signphone">
+                            <span class="msg_signphone"></span>
+                            <br>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                            <br>
+                        </form>
+                    </fieldset>
+                </div>
+                <!-- login Form -->
+                <div class="login">
+                    <fieldset>
+                        <legend>Login Form</legend>
+                        <form action="https://mrdoob.com/projects/chromeexperiments/google-gravity/" name="login_form">
+                            <br>
+                            <br>
+                            <label for="loginuser">Username</label>
+                            <br>
+                            <input type="text" name="loginuser" id="loginuser" class="loginuser">
+                            <span class="msg_loginuser"></span>
+                            <br>
+                            <label for="loginpass">Password</label>
+                            <br>
+                            <input type="password" name="loginpass" id="loginpass" class="loginpass">
+                            <span class="msg_loginpass"></span>
+                            <br>
+                            <br>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                            <br>
+                            <br>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
