@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./code.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.box{
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+    border: 2px solid white;
+    padding: 30px;
+}
+p{
+    font-size: 36px;
+    color: white;
+
+}
+input{
+    padding-block: 10px;
+    padding-inline-start: 10px;
+    padding-inline-end: 50px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+svg{
+    position: relative;
+    top: 10px;
+}
+button{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-block: 5px;
+    display: block;
+}

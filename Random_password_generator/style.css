@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a3afba;
+    display: flex;
+}
+.left{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 36px;
+
+}
+input{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+svg{
+    position: relative;
+    top: 10px;
+}
+button{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-block: 5px;
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+}
+img{
+    width: 59vh;
+    margin-left: 150px;
+}

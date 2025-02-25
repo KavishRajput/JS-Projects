@@ -1,0 +1,70 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box ;
+    }
+    .title{
+        background-color: darkorange;
+        width: 25vw;
+        padding-inline: 0px;
+        padding-block: 15px;
+        border-radius: 10px 10px 0px 0px;
+        color: white;
+    }
+    .name{
+        font-size: 22px;
+        text-align: center;
+
+    }
+    .artist{
+        font-size: 18px;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(59, 59, 59);
+        
+    }
+    .imgbox{
+        height: 55vh;
+        width: 25vw;
+        min-width: 25vw;
+    }
+    img{
+        height: inherit;
+        width: inherit;
+    }
+    audio{
+        position: absolute;
+        top: 0px;
+        /* display: none; */
+    }
+    .buttons{
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 25vw;
+        background-color: darkorange;
+        padding-inline: 0px;
+        padding-block: 15px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .play {
+        display: inline-block;
+        width: 56px;
+        height: 56px;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 18L7 18L7 6L9 6L9 18M15 6L17 6L17 18L15 18L15 6'%3E%3Canimate fill='freeze' attributeName='d' dur='0.6s' keyTimes='0;0.66;1' values='M9 18L7 18L7 6L9 6L9 18M15 6L17 6L17 18L15 18L15 6;M13 15L8 18L8 6L13 9L13 15M13 9L18 12L18 12L13 15L13 9;M13 15L8 18L8 6L13 9L13 9M13 9L18 12L18 12L13 15L13 15'/%3E%3C/path%3E%3C/svg%3E");
+        background-color: currentColor;
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+      }

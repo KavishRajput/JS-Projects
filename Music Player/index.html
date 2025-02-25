@@ -7,7 +7,25 @@
     <title>Music Player</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title">
+            <p class="name">Song Name</p>
+            <p class="artist">Artist Name</p>
+        </div>
+        <div class="imgbox">
+            <img src="https://i.pinimg.com/736x/fb/f5/a6/fbf5a671309f51660cb32b90602c5a0f.jpg" alt="">
+        </div>
+        <div class="buttons">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 28 28"><path fill="currentColor" d="M4.5 3.75a.75.75 0 0 0-1.5 0v20.5a.75.75 0 0 0 1.5 0zM25 5.254c0-1.816-2.041-2.884-3.533-1.848l-12.504 8.68a2.25 2.25 0 0 0-.013 3.688l12.504 8.81c1.49 1.05 3.546-.015 3.546-1.839z"/></svg>
+                <div class="play_pause">
+                    <span class="play"></span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path fill="currentColor" d="M40.75 6c-.69 0-1.25.56-1.25 1.25v33.5a1.25 1.25 0 0 0 2.5 0V7.25C42 6.56 41.44 6 40.75 6M6 9.256c0-2.615 2.931-4.16 5.088-2.68l21.504 14.743c1.883 1.29 1.883 4.07 0 5.36L11.088 41.424C8.93 42.9 6 41.357 6 38.743z"/></svg>
+        </div>
+    </div>
+    <audio controls>
+        <source type="audio/mpeg">
+    </audio>
     <script src="./script.js"></script>
 </body>
 </html>
